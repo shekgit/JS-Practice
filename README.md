@@ -1,10 +1,19 @@
 # JavaScript Practice
 
 ## Daily Progress
-- **Day 1 - Basics** - 20 questions 
+- **[Day 1 - Basics](https://shekgit.github.io/JS-Practice/day-1/)** - 20 questions 
+- - **20 questions** - Basic operators, variable hoisting, conditional statements
+
+- **[Day 2 - Loops & Control Flow](https://shekgit.github.io/JS-Practice/day-2/)** - 19 questions
+- - **19 questions** - Loops, conditional logic, user input handling, ATM simulator
 
 ## How to Run
-1. Open `index.html` in browser
-2. Check browser console for outputs
+1. Navigate to specific day folder
+2. Open `index.html` in browser
+3. Check browser console for outputs (F12 → Console)
+4. Follow prompts for interactive exercises
 
-## Total: 20 Questions Completed
+## Technologies Used
+- HTML5
+- JavaScript (ES6+)
+- Browser Console API
