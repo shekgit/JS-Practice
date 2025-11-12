@@ -10,6 +10,9 @@
 - **[Day 3 - Functions Level 1](https://shekgit.github.io/JS-Practice/day-3/)** - 10 questions
 - - **10 questions** - Function fundamentals, parameters, IIFE, array/object handling, setTimeout
 
+- **[Day 4 - Functions Level 2](https://shekgit.github.io/JS-Practice/day-4/)** - 10 questions
+- - **10 questions** - Higher-order functions, pure/impure functions, array methods, object immutability, destructuring
+
 ## How to Run
 1. Navigate to specific day folder
 2. Open `index.html` in browser
