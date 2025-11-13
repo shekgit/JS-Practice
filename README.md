@@ -13,13 +13,19 @@
 - **[Day 4 - Functions Level 2](https://shekgit.github.io/JS-Practice/day-4/)** - 10 questions
 - - **10 questions** - Higher-order functions, pure/impure functions, array methods, object immutability, destructuring
 
+- [Day 5 - DOM Counter Application](./day-5/)
+- DOM manipulation, event handling, responsive web design, modern CSS techniques
+
 ## How to Run
 1. Navigate to specific day folder
 2. Open `index.html` in browser
 3. Check browser console for outputs (F12 → Console)
 4. Follow prompts for interactive exercises
+5. For Day 5, interact with the counter application directly in the browser
 
 ## Technologies Used
 - HTML5
 - JavaScript (ES6+)
-- Browser Console API
+- CSS3 with modern features
+- Browser DOM API
+- Responsive Web Design
