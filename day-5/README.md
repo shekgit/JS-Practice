@@ -3,10 +3,10 @@
 ## Project Preview
 
 ### Desktop View
-![Counter App Desktop](./counter-1.png)
+![Counter App Desktop](../img/counter-1.png)
 
 ### Mobile View
-![Counter App Mobile](./counter-2.png)
+![Counter App Mobile](../img/counter-2.png)
 
 *Modern dark theme counter application with responsive design*
 
