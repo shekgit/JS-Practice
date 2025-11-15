@@ -315,8 +315,6 @@ let popularity = document.querySelector(".line-4 h4");
 
 let button = document.querySelector(".line-5 button");
 button.textContent = "🌍 Next Adventure";
-let bg = document.querySelector("main");
-
 name.textContent = "🌎 Wanderlust";
 country.textContent = "Ready to explore?";
 continent.textContent = "Click below to begin";
@@ -334,7 +332,6 @@ button.addEventListener("click", () => {
     country.textContent = rnum.country;
     continent.textContent = rnum.continent;
     tagline.textContent = rnum.tagline;
-    // info.textContent = `Best Time: ${rnum.bestTime} | Temp: ${rnum.temperature}°C | Duration: ${rnum.duration} | Cost: $ ${rnum.cost} | Local Currency: ${rnum.currency}`;
     info.innerHTML = `
   <span>Best Time: ${rnum.bestTime}</span>
   <span>Temp: ${rnum.temperature}°C</span>
@@ -344,5 +341,4 @@ button.addEventListener("click", () => {
   <span>Language: ${rnum.language}</span>
 `;
     popularity.textContent = `Popularity: ${rnum.popularity}%`;
-
 });
