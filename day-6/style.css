@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  height: 100vh;
+  max-width: 100%;
+  background: #222;
+  color: #ddd;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}
+
+.travel-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  max-width: 320px;
+  min-height: 280px;
+  gap: 1.2rem;
+  color: #113;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.23);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  padding: 24px 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.travel-card .line-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.3rem;
+}
+.travel-card .line-1 h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  color: #1a1a1a;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+.travel-card .line-1 h2 {
+  font-size: 1.1rem;
+  opacity: 0.85;
+  font-weight: 500;
+  color: #2d2d2d;
+}
+.travel-card .line-2 h3 {
+  font-size: 1.3rem;
+  font-style: italic;
+  opacity: 0.9;
+  margin-bottom: 0.8rem;
+  color: #444;
+  font-weight: 500;
+}
+.travel-card .line-3 h4 {
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  line-height: 1.5;
+  opacity: 0.95;
+  color: #333;
+  font-weight: 500;
+}
+.travel-card .line-4 h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  opacity: 0.95;
+  color: #222;
+}
+.travel-card .line-5 button {
+  font-size: 1.2rem;
+  padding: 0.7rem 1.6rem;
+  border-radius: 50px;
+  border: none;
+  background: rgba(255, 255, 255, 0.25);
+  color: #1a1a1a;
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.travel-card .line-5 button:hover {
+  background: rgba(255, 255, 255, 0.35);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+.travel-card .line-5 button:active {
+  transform: translateY(0);
+}
+.travel-card .line-1 h1:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  color: #000;
+}
+.travel-card .line-1 h2:hover {
+  color: #555;
+  transition: color 0.3s ease;
+}
+.travel-card .line-2 h3:hover {
+  color: #666;
+  transition: color 0.3s ease;
+}
+.travel-card .line-3 h4:hover, .travel-card .line-4 h4:hover {
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.travel-card:hover {
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3);
+  transform: translateY(-4px);
+}
+
+@media (max-width: 480px) {
+  .travel-card {
+    max-width: 300px;
+    min-height: 260px;
+    padding: 20px 12px;
+    gap: 1rem;
+  }
+  .travel-card .line-1 h1 {
+    font-size: 2rem;
+  }
+  .travel-card .line-1 h2 {
+    font-size: 1rem;
+  }
+  .travel-card .line-2 h3 {
+    font-size: 1.1rem;
+  }
+  .travel-card .line-3 h4, .travel-card .line-4 h4 {
+    font-size: 0.95rem;
+  }
+  .travel-card .line-5 button {
+    font-size: 1.1rem;
+    padding: 0.6rem 1.4rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
