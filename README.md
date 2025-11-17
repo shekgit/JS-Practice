@@ -19,12 +19,15 @@
 - **[Day 6 - Travel Destination Explorer](https://shekgit.github.io/JS-Practice/day-6/)**
 - Advanced DOM manipulation, dynamic content, glass morphism design, responsive travel application
 
+- **[Day 7 - Random Floating Circles](https://shekgit.github.io/JS-Practice/day-7/)**
+- Dynamic element creation, random generation, CSS animations, event handling
+
 ## How to Run
 1. Navigate to specific day folder
 2. Open `index.html` in browser
 3. Check browser console for outputs (F12 → Console)
 4. Follow prompts for interactive exercises
-5. For Day 5 & 6, interact with the applications directly in the browser
+5. For Day 5 onwards, interact with the applications directly in the browser
 
 ## Technologies Used
 - HTML5
@@ -34,3 +37,5 @@
 - Responsive Web Design
 - Glass Morphism UI Design
 - Unsplash Image API (static)
+- SCSS preprocessing
+- CSS Transitions & Animations
