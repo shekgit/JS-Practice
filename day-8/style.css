@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+  background: #222;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 55%;
+  height: 35%;
+  background: #ede;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+.card span {
+  color: royalblue;
+  font-weight: 600;
+  cursor: pointer;
+}
+.card p {
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 0.9px;
+  font-weight: 500;
+}
+.card .card-outer {
+  width: 82%;
+  height: 3rem;
+  border-radius: 1.5rem;
+  background-color: lightgrey;
+}
+.card .card-outer .card-inner {
+  width: 0%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.5rem;
+  background: linear-gradient(90deg, #ff4757, #ffa502, #2ed573);
+  transition: width 0.3s ease, background 0.3s ease;
+}
+.card .card-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+.card .card-data button {
+  font-size: 2.5rem;
+  padding: 0.7rem 1.5rem;
+  border-radius: 1.5rem;
+  border: none;
+}
+.card .card-data button:hover {
+  cursor: pointer;
+  border: 2px solid greenyellow;
+  background-color: black;
+  color: white;
+}
+.card .card-data button:active {
+  scale: 0.95;
+}
+.card .card-data h2 {
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+  font-family: monospace;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: max-content;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 576px) {
+  .card {
+    width: 95%;
+    height: max-content;
+    padding: 2rem 0;
+  }
+  .card-data {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

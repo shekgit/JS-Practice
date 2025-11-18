@@ -22,6 +22,9 @@
 - **[Day 7 - Random Floating Circles](https://shekgit.github.io/JS-Practice/day-7/)**
 - Dynamic element creation, random generation, CSS animations, event handling
 
+- **[Day 8 - Download Progress Simulator](https://shekgit.github.io/JS-Practice/day-8/)**
+- Progress bar animation, JavaScript intervals, gradient styling, responsive design, button state management
+
 ## How to Run
 1. Navigate to specific day folder
 2. Open `index.html` in browser
@@ -39,3 +42,6 @@
 - Unsplash Image API (static)
 - SCSS preprocessing
 - CSS Transitions & Animations
+- Progress Bar Animations
+- Gradient Styling
+- Interactive Button States
