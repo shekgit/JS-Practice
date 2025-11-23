@@ -25,12 +25,16 @@
 - **[Day 8 - Download Progress Simulator](https://shekgit.github.io/JS-Practice/day-8/)**
 - Progress bar animation, JavaScript intervals, gradient styling, responsive design, button state management
 
+- **[Day 9 - Instagram Like Animation](https://shekgit.github.io/JS-Practice/day-9/)**
+- Double-click interaction, CSS transform animations, gradient heart effect, responsive design with multiple breakpoints, smooth transitions
+
 ## How to Run
 1. Navigate to specific day folder
 2. Open `index.html` in browser
 3. Check browser console for outputs (F12 → Console)
 4. Follow prompts for interactive exercises
 5. For Day 5 onwards, interact with the applications directly in the browser
+6. For Day 9, double-click/tap on the image to trigger the like animation
 
 ## Technologies Used
 - HTML5
@@ -45,3 +49,9 @@
 - Progress Bar Animations
 - Gradient Styling
 - Interactive Button States
+- Remix Icons
+- Double-click/Tap Event Handling
+- CSS Transform Animations (scale, rotate, translate)
+- Background-clip Text Effects
+- Responsive Media Queries
+- Cross-platform Interaction Design
