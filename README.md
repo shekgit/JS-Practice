@@ -31,6 +31,9 @@
 - **[Day 10 - Friend Connection Card](https://shekgit.github.io/JS-Practice/day-10/)**
 - Interactive friend toggle, gradient color schemes, DOM manipulation, SCSS styling, responsive card design
 
+- **[Day 11 - Custom Cursor](https://shekgit.github.io/JS-Practice/day-11/)**
+- Custom cursor implementation, mouse movement tracking, blend mode effects, hover animations
+
 
 ## How to Run
 1. Navigate to specific day folder
@@ -40,6 +43,7 @@
 5. For Day 5 onwards, interact with the applications directly in the browser
 6. For Day 9, double-click/tap on the image to trigger the like animation
 7. For Day 10, click the button to toggle friend status with color changes
+8. For Day 11, move mouse to see custom cursor with blend effects
 
 ## Technologies Used
 - HTML5
@@ -63,3 +67,6 @@
 - Friend Status Toggle System
 - Dynamic Color Changes
 - Card-based UI Design
+- Custom Cursor Implementation
+- Mouse Event Handling
+- CSS Blend Modes
