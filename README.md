@@ -28,6 +28,10 @@
 - **[Day 9 - Instagram Like Animation](https://shekgit.github.io/JS-Practice/day-9/)**
 - Double-click interaction, CSS transform animations, gradient heart effect, responsive design with multiple breakpoints, smooth transitions
 
+- **[Day 10 - Friend Connection Card](https://shekgit.github.io/JS-Practice/day-10/)**
+- Interactive friend toggle, gradient color schemes, DOM manipulation, SCSS styling, responsive card design
+
+
 ## How to Run
 1. Navigate to specific day folder
 2. Open `index.html` in browser
@@ -35,6 +39,7 @@
 4. Follow prompts for interactive exercises
 5. For Day 5 onwards, interact with the applications directly in the browser
 6. For Day 9, double-click/tap on the image to trigger the like animation
+7. For Day 10, click the button to toggle friend status with color changes
 
 ## Technologies Used
 - HTML5
@@ -55,3 +60,6 @@
 - Background-clip Text Effects
 - Responsive Media Queries
 - Cross-platform Interaction Design
+- Friend Status Toggle System
+- Dynamic Color Changes
+- Card-based UI Design
