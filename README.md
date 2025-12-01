@@ -34,6 +34,9 @@
 - **[Day 11 - Custom Cursor](https://shekgit.github.io/JS-Practice/day-11/)**
 - Custom cursor implementation, mouse movement tracking, blend mode effects, hover animations
 
+- **[Day 12 - Image Hover Animation](https://shekgit.github.io/JS-Practice/day-12/)**
+- Interactive image reveal, cursor tracking, blend mode effects, smooth transitions
+
 
 ## How to Run
 1. Navigate to specific day folder
@@ -44,6 +47,7 @@
 6. For Day 9, double-click/tap on the image to trigger the like animation
 7. For Day 10, click the button to toggle friend status with color changes
 8. For Day 11, move mouse to see custom cursor with blend effects
+9. For Day 12, hover on names to reveal profile images
 
 ## Technologies Used
 - HTML5
@@ -70,3 +74,6 @@
 - Custom Cursor Implementation
 - Mouse Event Handling
 - CSS Blend Modes
+- Image Reveal Animations
+- Cursor Tracking
+- Element Positioning

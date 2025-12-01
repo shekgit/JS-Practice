@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  font-family: "Helvetica", sans-serif;
+  background-color: #222;
+  color: #fdf;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+main .elem {
+  width: 100%;
+  border-bottom: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0.3rem 2rem;
+  position: relative;
+}
+main .elem img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.1s ease;
+  pointer-events: none;
+}
+main .elem h2 {
+  font-size: 8.4vw;
+  position: relative;
+  z-index: 10;
+  mix-blend-mode: difference;
+}
+
+/*# sourceMappingURL=style.css.map */
