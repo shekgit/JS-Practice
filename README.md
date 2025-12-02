@@ -37,6 +37,9 @@
 - **[Day 12 - Image Hover Animation](https://shekgit.github.io/JS-Practice/day-12/)**
 - Interactive image reveal, cursor tracking, blend mode effects, smooth transitions
 
+- **[Day 13 - Job Board Application](https://shekgit.github.io/JS-Practice/day-13/)**
+- Dynamic job card generation, bookmark toggle functionality, responsive layout, dark theme design
+
 
 ## How to Run
 1. Navigate to specific day folder
@@ -48,6 +51,7 @@
 7. For Day 10, click the button to toggle friend status with color changes
 8. For Day 11, move mouse to see custom cursor with blend effects
 9. For Day 12, hover on names to reveal profile images
+10. For Day 13, click "Save" buttons to bookmark job listings
 
 ## Technologies Used
 - HTML5
@@ -77,3 +81,9 @@
 - Image Reveal Animations
 - Cursor Tracking
 - Element Positioning
+- Job Data Management
+- Bookmark System
+- Dynamic Array Manipulation
+- Responsive Card Layouts
+- Dark Theme UI
+- Flexbox and Grid Layouts
