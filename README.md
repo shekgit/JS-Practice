@@ -40,6 +40,10 @@
 - **[Day 13 - Job Board Application](https://shekgit.github.io/JS-Practice/day-13/)**
 - Dynamic job card generation, bookmark toggle functionality, responsive layout, dark theme design
 
+- **[Day 14 - Digital Piano Application](https://shekgit.github.io/JS-Practice/day-14/)** - Interactive Piano Simulator
+- - **Interactive Piano Interface** - Realistic piano keys with click and keyboard support, audio playback, visual feedback animations
+
+
 
 ## How to Run
 1. Navigate to specific day folder
@@ -52,6 +56,7 @@
 8. For Day 11, move mouse to see custom cursor with blend effects
 9. For Day 12, hover on names to reveal profile images
 10. For Day 13, click "Save" buttons to bookmark job listings
+11. For Day 14, click piano keys or use keyboard (ASDFGHJ + WETYU) to play notes
 
 ## Technologies Used
 - HTML5
@@ -87,3 +92,10 @@
 - Responsive Card Layouts
 - Dark Theme UI
 - Flexbox and Grid Layouts
+  Web Audio API
+- 3D Box Shadows and Effects
+- Data Attributes for Note Mapping
+- Audio Pre-loading and Caching
+- Keyboard Mapping Systems
+- Piano Key Simulations
+- Realistic Sound Playback
