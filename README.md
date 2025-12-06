@@ -43,6 +43,8 @@
 - **[Day 14 - Digital Piano Application](https://shekgit.github.io/JS-Practice/day-14/)** - Interactive Piano Simulator
 - - **Interactive Piano Interface** - Realistic piano keys with click and keyboard support, audio playback, visual feedback animations
 
+- **[Day 15 - Spotlight Effect Application](https://shekgit.github.io/JS-Practice/day-15/)** - Interactive Mouse Spotlight Effect
+- - **Interactive Spotlight** - Follows mouse/touch movement with smooth transitions, responsive design for all devices
 
 
 ## How to Run
@@ -57,6 +59,7 @@
 9. For Day 12, hover on names to reveal profile images
 10. For Day 13, click "Save" buttons to bookmark job listings
 11. For Day 14, click piano keys or use keyboard (ASDFGHJ + WETYU) to play notes
+12. For Day 15, move mouse or touch/drag on mobile to see spotlight effect
 
 ## Technologies Used
 - HTML5
@@ -99,3 +102,10 @@
 - Keyboard Mapping Systems
 - Piano Key Simulations
 - Realistic Sound Playback
+- CSS Custom Properties (Variables)
+- CSS Radial Gradients
+- Mobile Touch Event Handling
+- Media Queries for Responsive Design
+- CSS Positioning Techniques
+- Mobile-First Responsive Approach
+- Performance Optimized Event Handling
