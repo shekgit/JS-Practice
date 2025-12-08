@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  background-color: #111;
+}
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes bounce {
+  0% {
+    --rotate: 0deg;
+    transform:
+            translateY(0)
+            scale(1);
+  }
+  25% {
+    --rotate: 90deg;
+    transform:
+            translateY(-10px)
+            scale(1.05);
+  }
+  50% {
+    --rotate: 180deg;
+    transform:
+            translateY(-20px)
+            scale(1.01);
+  }
+  75% {
+    --rotate: 270deg;
+    transform:
+            translateY(-10px)
+            scale(1.04);
+  }
+  100% {
+    --rotate: 360deg;
+    transform:
+            translateY(0)
+            scale(1);
+  }
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 2px solid pink;
+    gap: 0.5rem;
+    will-change: transform, box-shadow;
+
+    //background: conic-gradient(black, rgb(228, 104, 228), black);
+    //background: linear-gradient(rgba(0, 0, 0, 0.3), transparent,rgba(0, 0, 0, 0.3)) padding-box,
+    //conic-gradient(from var(--rotate), transparent,rgb(228, 104, 228)) border-box;
+
+    background:
+            linear-gradient(#111, #111) padding-box,
+            conic-gradient(
+                            from var(--rotate),
+                            rgb(228, 104, 228),
+                            #ff00ff,
+                            rgb(228, 104, 228),
+                            transparent,
+                            rgb(228, 104, 228)
+            ) border-box;
+
+    // Initialize the custom property
+    --rotate: 0deg;
+    box-shadow: 0 0 0 purple;
+    animation: bounce 2.5s ease-in-out infinite;
+    animation-play-state: paused;
+    transition: all 0.3s ease , --rotate 0.3s ease;
+
+    h1 {
+      color: white;
+      font-size: 3.75rem;
+      padding: 0 1rem;
+      transition: all 0.3s ease;
+    }
+
+    p {
+      color: orange;
+      font-size: 1.5rem;
+      width: 75%;
+      padding: 0 1rem;
+      transition: all 0.3s ease;
+    }
+
+    img {
+      max-width: 100%;
+      object-fit: cover;
+      object-position: center;
+      filter: brightness(1.15) saturate(1.1) contrast(1.05);
+      transition: filter 0.3s ease;
+    }
+
+    &:hover {
+      box-shadow: 0 0 100px purple;
+      animation-play-state: running;
+      padding: 0.5rem;
+      border: 5px solid transparent;
+
+      h1, p {
+        color: navajowhite;
+        text-shadow: 0 0 100px rgb(228, 104, 228);
+        background-color: transparent;
+        padding: 0 1rem 1rem 1rem;
+      }
+    }
+
+  }
+
+}
+@media (max-width: 400px) {
+  .card {
+    width: 90%;
+    max-width: 350px;
+  }
+}

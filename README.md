@@ -49,6 +49,9 @@
 - **[Day 16 - Matrix Text Reveal Animation](https://shekgit.github.io/JS-Practice/day-16/)** - Matrix-style Character Animation
 - - **Matrix Effect** - Random characters gradually transform into readable text with smooth transitions
 
+- **[Day 17 - Animated Border Gradient Card](https://shekgit.github.io/JS-Practice/day-17/)** - Animated Gradient Border Card
+- - **Animated Gradient Border** - Card with rotating gradient border and bounce animation on hover
+
 
 
 
@@ -66,6 +69,7 @@
 11. For Day 14, click piano keys or use keyboard (ASDFGHJ + WETYU) to play notes
 12. For Day 15, move mouse or touch/drag on mobile to see spotlight effect
 13. For Day 16, watch text transform from random characters to "Welcome To The World of JavaScript!" with Matrix-style effect
+14. For Day 17, hover over the card to see rotating gradient border and bounce animation
 
 ## Technologies Used
 - HTML5
@@ -120,3 +124,8 @@
 - setInterval Animation Control
 - Text Content Manipulation
 - Automated Animation Cleanup
+- CSS Custom Properties (@property)
+- Conic Gradient Borders
+- CSS Animation States (animation-play-state)
+- Performance Optimization (will-change)
+- Responsive Hover Effects
