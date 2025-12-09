@@ -52,9 +52,10 @@
 - **[Day 17 - Animated Border Gradient Card](https://shekgit.github.io/JS-Practice/day-17/)** - Animated Gradient Border Card
 - - **Animated Gradient Border** - Card with rotating gradient border and bounce animation on hover
 
+- **[Day 18 - CSS Anchor Positioning](https://shekgit.github.io/JS-Practice/day-18/)** - Interactive Anchor Positioning
+- - **Experimental CSS Anchor API** - Dynamic anchor overlay that switches between full-screen and box positioning on hover
 
-
-
+    
 ## How to Run
 1. Navigate to specific day folder
 2. Open `index.html` in browser
@@ -70,6 +71,7 @@
 12. For Day 15, move mouse or touch/drag on mobile to see spotlight effect
 13. For Day 16, watch text transform from random characters to "Welcome To The World of JavaScript!" with Matrix-style effect
 14. For Day 17, hover over the card to see rotating gradient border and bounce animation
+15. For Day 18, hover over colored boxes to see anchor positioning effect (requires Chrome with experimental flags enabled)
 
 ## Technologies Used
 - HTML5
@@ -129,3 +131,7 @@
 - CSS Animation States (animation-play-state)
 - Performance Optimization (will-change)
 - Responsive Hover Effects
+- CSS Anchor Positioning API
+- Experimental Web Platform Features
+- Same-anchor-name Strategy
+- :has() Selector Usage
