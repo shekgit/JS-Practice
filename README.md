@@ -55,6 +55,8 @@
 - **[Day 18 - CSS Anchor Positioning](https://shekgit.github.io/JS-Practice/day-18/)** - Interactive Anchor Positioning
 - - **Experimental CSS Anchor API** - Dynamic anchor overlay that switches between full-screen and box positioning on hover
 
+- **[Day 20 - Responsive Portfolio Website](https://shekgit.github.io/JS-Practice/day-20/)**
+    - **Responsive Portfolio Design** - Mobile-first responsive website with React components, mobile hamburger menu, fixed sidebar, and dynamic content
     
 ## How to Run
 1. Navigate to specific day folder
@@ -72,6 +74,7 @@
 13. For Day 16, watch text transform from random characters to "Welcome To The World of JavaScript!" with Matrix-style effect
 14. For Day 17, hover over the card to see rotating gradient border and bounce animation
 15. For Day 18, hover over colored boxes to see anchor positioning effect (requires Chrome with experimental flags enabled)
+16. For Day 20, resize browser to test responsive behavior, click hamburger icon on mobile view
 
 ## Technologies Used
 - HTML5
@@ -135,3 +138,9 @@
 - Experimental Web Platform Features
 - Same-anchor-name Strategy
 - :has() Selector Usage
+- React Components
+- Mobile Hamburger Menu
+- Fixed Sidebar Design
+- Scroll Lock Implementation
+- Dynamic Year Display
+- Responsive Layouts

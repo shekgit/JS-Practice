@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+}
+
+main{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui;
+  max-width: 1200px;
+
+  #root{
+    width: 100%;
+    height: 100%;
+    position:relative;
+
+    .navbar{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 1rem;
+      max-height: 100px;
+      margin-bottom: 2rem;
+
+      .logo{
+        width: 50px;
+        height: 50ox;
+        padding: 0.5rem;
+      }
+
+      h2{
+        font-size: 4em;
+
+        &:hover{
+          cursor: pointer;
+        }
+      }
+
+
+      button{
+        border: none;
+        padding: 0.5rem;
+        font-size: 2.5rem;
+        border-radius: 5px;
+        background-color: transparent;
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-style: solid;
+        text-decoration-color: black;
+        text-underline-offset: 5px;
+
+      }
+      .nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+      }
+    }
+    .hero{
+      width: 100%;
+      display: flex;
+      gap: 1rem;
+      padding: 1rem;
+      align-items: center;
+      justify-content: center;
+
+      .project-startup{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+
+        h3{
+          font-size: 3em;
+        }
+        h2{
+          font-size: 6em;
+          .plus{
+            font-size: 2rem;
+          }
+        }
+      }
+      .name-desc{
+        padding: 1rem;
+        .name{
+          font-size: 15rem;
+        }
+        .description{
+          font-size: 2rem;
+        }
+      }
+      .heroData{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-around;
+        gap: 5rem;
+        min-height: 60vh;
+      }
+
+      .scroll-btn{
+        border: none;
+        padding: 0.5rem;
+        font-size: 2.5rem;
+        border-radius: 5px;
+        background-color: transparent;
+        cursor: pointer;
+        text-align: start;
+        margin-top: 4rem;
+      }
+      .heroImg{
+        img{
+          width: 100%;
+          border: 1px solid blue;
+          object-fit: cover;
+          object-position: center;
+
+        }
+
+      }
+
+    }
+
+    .sidebar{
+      font-size: 2rem;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      transform: rotate(270deg);
+      width: 75vh;
+      position: fixed;
+      text-wrap: nowrap;
+      bottom: 15em;
+      left: -10em;
+      opacity: 0.6;
+
+      .hr{
+        background-color: black;
+        width: 70vh;
+        height: 1px;
+
+
+      }
+    }
+
+    .side-content{
+      padding-right: 2rem;
+    }
+    .designation{
+      padding-left: 2rem;
+    }
+
+    .mobile-menu-content {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: rgba(255, 222, 173, 0.9);
+      padding: 4rem 2rem;
+      z-index: 1000;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+
+    }
+
+    .mobile-menu-content .menu {
+      font-size: 2.5rem;
+      margin: 1.5rem 0;
+      cursor: pointer;
+      border-bottom: 0.3px solid rgba(34, 34, 34, 0.3);
+      padding-bottom: 10px;
+
+    }
+
+    .mobile-menu-content .logo {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 2rem;
+    }
+
+    .hamburger {
+      position: fixed;
+      top: -10px;
+      right: 15px;
+      font-size: 7rem;
+      cursor: pointer;
+      z-index: 1001;
+      background: white;
+      padding: 0.5rem;
+      border-radius: 5px;
+
+    }
+    .ri-book{
+      border: none;
+      padding: 0.5rem;
+      font-size: 2.5rem;
+      border-radius: 5px;
+      background-color: transparent;
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration-style: solid;
+      text-decoration-color: black;
+      text-underline-offset: 5px;
+    }
+  }
+
+}
+
+
+@media screen and (max-width: 900px) {
+  .hero {
+    overflow-x: hidden;
+    flex-direction: column;
+
+    .heroData {
+      order: 1;
+    }
+  }
+  .nav{
+    display: none !important;
+  }
+}

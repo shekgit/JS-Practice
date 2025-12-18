@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+}
+
+main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui;
+  max-width: 1200px;
+}
+main #root {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+main #root .navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  max-height: 100px;
+  margin-bottom: 2rem;
+}
+main #root .navbar .logo {
+  width: 50px;
+  height: 50ox;
+  padding: 0.5rem;
+}
+main #root .navbar h2 {
+  font-size: 4em;
+}
+main #root .navbar h2:hover {
+  cursor: pointer;
+}
+main #root .navbar button {
+  border: none;
+  padding: 0.5rem;
+  font-size: 2.5rem;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: black;
+  text-underline-offset: 5px;
+}
+main #root .navbar .nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+main #root .hero {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+main #root .hero .project-startup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+main #root .hero .project-startup h3 {
+  font-size: 3em;
+}
+main #root .hero .project-startup h2 {
+  font-size: 6em;
+}
+main #root .hero .project-startup h2 .plus {
+  font-size: 2rem;
+}
+main #root .hero .name-desc {
+  padding: 1rem;
+}
+main #root .hero .name-desc .name {
+  font-size: 15rem;
+}
+main #root .hero .name-desc .description {
+  font-size: 2rem;
+}
+main #root .hero .heroData {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  gap: 5rem;
+  min-height: 60vh;
+}
+main #root .hero .scroll-btn {
+  border: none;
+  padding: 0.5rem;
+  font-size: 2.5rem;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: start;
+  margin-top: 4rem;
+}
+main #root .hero .heroImg img {
+  width: 100%;
+  border: 1px solid blue;
+  object-fit: cover;
+  object-position: center;
+}
+main #root .sidebar {
+  font-size: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transform: rotate(270deg);
+  width: 75vh;
+  position: fixed;
+  text-wrap: nowrap;
+  bottom: 15em;
+  left: -10em;
+  opacity: 0.6;
+}
+main #root .sidebar .hr {
+  background-color: black;
+  width: 70vh;
+  height: 1px;
+}
+main #root .side-content {
+  padding-right: 2rem;
+}
+main #root .designation {
+  padding-left: 2rem;
+}
+main #root .mobile-menu-content {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 222, 173, 0.9);
+  padding: 4rem 2rem;
+  z-index: 1000;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #root .mobile-menu-content .menu {
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+  cursor: pointer;
+  border-bottom: 0.3px solid rgba(34, 34, 34, 0.3);
+  padding-bottom: 10px;
+}
+main #root .mobile-menu-content .logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 2rem;
+}
+main #root .hamburger {
+  position: fixed;
+  top: -10px;
+  right: 15px;
+  font-size: 7rem;
+  cursor: pointer;
+  z-index: 1001;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+main #root .ri-book {
+  border: none;
+  padding: 0.5rem;
+  font-size: 2.5rem;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: black;
+  text-underline-offset: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .hero {
+    overflow-x: hidden;
+    flex-direction: column;
+  }
+  .hero .heroData {
+    order: 1;
+  }
+  .nav {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
