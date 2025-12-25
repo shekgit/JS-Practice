@@ -55,6 +55,9 @@
 - **[Day 18 - CSS Anchor Positioning](https://shekgit.github.io/JS-Practice/day-18/)** - Interactive Anchor Positioning
 - - **Experimental CSS Anchor API** - Dynamic anchor overlay that switches between full-screen and box positioning on hover
 
+- **[Day 19 - Weather Dashboard App](https://shekgit.github.io/JS-Practice/day-19/)** - Real-time Weather Application
+- - Live weather data from OpenWeatherMap API, 7-day forecast, geolocation support, city search, responsive design with background weather icons
+
 - **[Day 20 - Responsive Portfolio Website](https://shekgit.github.io/JS-Practice/day-20/)**
     - **Responsive Portfolio Design** - Mobile-first responsive website with React components, mobile hamburger menu, fixed sidebar, and dynamic content
     
