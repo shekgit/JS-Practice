@@ -77,7 +77,8 @@
 13. For Day 16, watch text transform from random characters to "Welcome To The World of JavaScript!" with Matrix-style effect
 14. For Day 17, hover over the card to see rotating gradient border and bounce animation
 15. For Day 18, hover over colored boxes to see anchor positioning effect (requires Chrome with experimental flags enabled)
-16. For Day 20, resize browser to test responsive behavior, click hamburger icon on mobile view
+16. For Day 19, allow location access for local weather, use search bar to find any city worldwide, view 7-day forecast with background weather icons
+17. For Day 20, resize browser to test responsive behavior, click hamburger icon on mobile view
 
 ## Technologies Used
 - HTML5
@@ -141,6 +142,13 @@
 - Experimental Web Platform Features
 - Same-anchor-name Strategy
 - :has() Selector Usage
+- OpenWeatherMap API Integration
+- Real-time Weather Data Fetching
+- Geolocation Implementation
+- Background Image Weather Icons
+- 7-Day Forecast System
+- Interactive City Search
+- Responsive Weather Dashboard Design
 - React Components
 - Mobile Hamburger Menu
 - Fixed Sidebar Design
