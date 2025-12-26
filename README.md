@@ -2,65 +2,68 @@
 
 ## Daily Progress
 - **[Day 1 - Basics](https://shekgit.github.io/JS-Practice/day-1/)** - 20 questions
-- - **20 questions** - Basic operators, variable hoisting, conditional statements
+    - **20 questions** - Basic operators, variable hoisting, conditional statements
 
 - **[Day 2 - Loops & Control Flow](https://shekgit.github.io/JS-Practice/day-2/)** - 19 questions
-- - **19 questions** - Loops, conditional logic, user input handling, ATM simulator
+    - **19 questions** - Loops, conditional logic, user input handling, ATM simulator
 
 - **[Day 3 - Functions Level 1](https://shekgit.github.io/JS-Practice/day-3/)** - 10 questions
-- - **10 questions** - Function fundamentals, parameters, IIFE, array/object handling, setTimeout
+    - **10 questions** - Function fundamentals, parameters, IIFE, array/object handling, setTimeout
 
 - **[Day 4 - Functions Level 2](https://shekgit.github.io/JS-Practice/day-4/)** - 10 questions
-- - **10 questions** - Higher-order functions, pure/impure functions, array methods, object immutability, destructuring
+    - **10 questions** - Higher-order functions, pure/impure functions, array methods, object immutability, destructuring
 
 - **[Day 5 - DOM Counter Application](https://shekgit.github.io/JS-Practice/day-5/)**
-- DOM manipulation, event handling, responsive web design, modern CSS techniques
+    - DOM manipulation, event handling, responsive web design, modern CSS techniques
 
 - **[Day 6 - Travel Destination Explorer](https://shekgit.github.io/JS-Practice/day-6/)**
-- Advanced DOM manipulation, dynamic content, glass morphism design, responsive travel application
+    - Advanced DOM manipulation, dynamic content, glass morphism design, responsive travel application
 
 - **[Day 7 - Random Floating Circles](https://shekgit.github.io/JS-Practice/day-7/)**
-- Dynamic element creation, random generation, CSS animations, event handling
+    - Dynamic element creation, random generation, CSS animations, event handling
 
 - **[Day 8 - Download Progress Simulator](https://shekgit.github.io/JS-Practice/day-8/)**
-- Progress bar animation, JavaScript intervals, gradient styling, responsive design, button state management
+    - Progress bar animation, JavaScript intervals, gradient styling, responsive design, button state management
 
 - **[Day 9 - Instagram Like Animation](https://shekgit.github.io/JS-Practice/day-9/)**
-- Double-click interaction, CSS transform animations, gradient heart effect, responsive design with multiple breakpoints, smooth transitions
+    - Double-click interaction, CSS transform animations, gradient heart effect, responsive design with multiple breakpoints, smooth transitions
 
 - **[Day 10 - Friend Connection Card](https://shekgit.github.io/JS-Practice/day-10/)**
-- Interactive friend toggle, gradient color schemes, DOM manipulation, SCSS styling, responsive card design
+    - Interactive friend toggle, gradient color schemes, DOM manipulation, SCSS styling, responsive card design
 
 - **[Day 11 - Custom Cursor](https://shekgit.github.io/JS-Practice/day-11/)**
-- Custom cursor implementation, mouse movement tracking, blend mode effects, hover animations
+    - Custom cursor implementation, mouse movement tracking, blend mode effects, hover animations
 
 - **[Day 12 - Image Hover Animation](https://shekgit.github.io/JS-Practice/day-12/)**
-- Interactive image reveal, cursor tracking, blend mode effects, smooth transitions
+    - Interactive image reveal, cursor tracking, blend mode effects, smooth transitions
 
 - **[Day 13 - Job Board Application](https://shekgit.github.io/JS-Practice/day-13/)**
-- Dynamic job card generation, bookmark toggle functionality, responsive layout, dark theme design
+    - Dynamic job card generation, bookmark toggle functionality, responsive layout, dark theme design
 
 - **[Day 14 - Digital Piano Application](https://shekgit.github.io/JS-Practice/day-14/)** - Interactive Piano Simulator
-- - **Interactive Piano Interface** - Realistic piano keys with click and keyboard support, audio playback, visual feedback animations
+    - **Interactive Piano Interface** - Realistic piano keys with click and keyboard support, audio playback, visual feedback animations
 
 - **[Day 15 - Spotlight Effect Application](https://shekgit.github.io/JS-Practice/day-15/)** - Interactive Mouse Spotlight Effect
-- - **Interactive Spotlight** - Follows mouse/touch movement with smooth transitions, responsive design for all devices
+    - **Interactive Spotlight** - Follows mouse/touch movement with smooth transitions, responsive design for all devices
 
 - **[Day 16 - Matrix Text Reveal Animation](https://shekgit.github.io/JS-Practice/day-16/)** - Matrix-style Character Animation
-- - **Matrix Effect** - Random characters gradually transform into readable text with smooth transitions
+    - **Matrix Effect** - Random characters gradually transform into readable text with smooth transitions
 
 - **[Day 17 - Animated Border Gradient Card](https://shekgit.github.io/JS-Practice/day-17/)** - Animated Gradient Border Card
-- - **Animated Gradient Border** - Card with rotating gradient border and bounce animation on hover
+    - **Animated Gradient Border** - Card with rotating gradient border and bounce animation on hover
 
 - **[Day 18 - CSS Anchor Positioning](https://shekgit.github.io/JS-Practice/day-18/)** - Interactive Anchor Positioning
-- - **Experimental CSS Anchor API** - Dynamic anchor overlay that switches between full-screen and box positioning on hover
+    - **Experimental CSS Anchor API** - Dynamic anchor overlay that switches between full-screen and box positioning on hover
 
 - **[Day 19 - Weather Dashboard App](https://shekgit.github.io/JS-Practice/day-19/)** - Real-time Weather Application
-- - Live weather data from OpenWeatherMap API, 7-day forecast, geolocation support, city search, responsive design with background weather icons
+    - Live weather data from OpenWeatherMap API, 7-day forecast, geolocation support, city search, responsive design with background weather icons
 
 - **[Day 20 - Responsive Portfolio Website](https://shekgit.github.io/JS-Practice/day-20/)**
     - **Responsive Portfolio Design** - Mobile-first responsive website with React components, mobile hamburger menu, fixed sidebar, and dynamic content
-    
+
+- **[Day 21 - Instagram Style Reels Clone](https://shekgit.github.io/JS-Practice/day-21/)**
+    - **Instagram Style Reels Interface** - Vertical video reels with like, comment, share functionality, follow/unfollow system, smooth snap scrolling, and advanced CSS pointer event management
+
 ## How to Run
 1. Navigate to specific day folder
 2. Open `index.html` in browser
@@ -79,6 +82,7 @@
 15. For Day 18, hover over colored boxes to see anchor positioning effect (requires Chrome with experimental flags enabled)
 16. For Day 19, allow location access for local weather, use search bar to find any city worldwide, view 7-day forecast with background weather icons
 17. For Day 20, resize browser to test responsive behavior, click hamburger icon on mobile view
+18. For Day 21, scroll vertically to navigate between reels, click heart to like, follow buttons to toggle follow status, interact with comment/share/menu buttons
 
 ## Technologies Used
 - HTML5
@@ -114,7 +118,7 @@
 - Responsive Card Layouts
 - Dark Theme UI
 - Flexbox and Grid Layouts
-  Web Audio API
+- Web Audio API
 - 3D Box Shadows and Effects
 - Data Attributes for Note Mapping
 - Audio Pre-loading and Caching
@@ -155,3 +159,14 @@
 - Scroll Lock Implementation
 - Dynamic Year Display
 - Responsive Layouts
+- Instagram Style UI Design
+- CSS Scroll Snap
+- Vertical Reels Interface
+- Interactive Stats Panel
+- Follow/Unfollow System with Visual Feedback
+- Advanced Pointer Events Management
+- Dynamic Content Loading from Arrays
+- Real-time Like Counter Updates
+- CSS Gradients for Text Overlays
+- Event Delegation Patterns
+- Smooth Vertical Scrolling Behavior

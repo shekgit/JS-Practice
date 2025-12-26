@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #111;
+  color: white;
+  overflow: hidden;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+main .container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  flex-shrink: 0;
+}
+main .container .allReels {
+  width: 53vh;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  margin: 0.35rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  scroll-snap-type: none;
+}
+main .container .allReels .reel {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+main .container .allReels .reel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+main .container .allReels .reel .bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+}
+main .container .allReels .reel .bottom .user {
+  width: 100%;
+  padding: 0 2rem 1rem 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+main .container .allReels .reel .bottom .user img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid #0095f6;
+}
+main .container .allReels .reel .bottom .user h2 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+main .container .allReels .reel .bottom .user button {
+  padding: 0.35rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #0095f6;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-left: auto;
+}
+main .container .allReels .reel .bottom .user button:hover {
+  background-color: #0078d7;
+}
+main .container .allReels .reel .bottom .user button:active {
+  background-color: #005a9e;
+  transform: scale(0.95);
+}
+main .container .allReels .reel .bottom .user button.following {
+  background-color: #666;
+}
+main .container .allReels .reel .bottom .user button.following:hover {
+  background-color: #777;
+}
+main .container .allReels .reel .bottom .title {
+  width: 100%;
+  text-align: left;
+  padding: 0 2rem 2rem 2rem;
+}
+main .container .allReels .reel .bottom .title h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  text-wrap: wrap;
+  color: white;
+  line-height: 1.4;
+}
+main .container .stats {
+  height: 95vh;
+  width: 60px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+  padding-right: 0.5rem;
+  pointer-events: none;
+}
+main .container .stats .like, main .container .stats .comment, main .container .stats .share, main .container .stats .menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+main .container .stats .like:hover, main .container .stats .comment:hover, main .container .stats .share:hover, main .container .stats .menu:hover {
+  transform: scale(1.1);
+}
+main .container .stats h4 {
+  font-size: 1.8rem;
+  font-weight: 100;
+  padding-bottom: 0.5rem;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+}
+main .container .stats h4 i {
+  display: block;
+}
+main .container .stats h4 .ri-heart-3-fill {
+  color: #ff3040;
+}
+main .container .stats h5 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  pointer-events: none;
+  user-select: none;
+}
+main .container .stats .comment h4 {
+  transform: rotate(270deg);
+}
+
+main {
+  height: 100vh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+main .container {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+main::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */

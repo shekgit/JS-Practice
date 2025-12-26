@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #111;
+  color: white;
+  overflow: hidden;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //margin-bottom: 1rem;
+    margin-bottom: 0;
+    scroll-snap-align: start; // Snap for container
+    scroll-snap-stop: always;
+    flex-shrink: 0; // Prevent shrinking
+
+
+    .allReels {
+      width: 53vh;
+      height: 95vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      //background-color: rgba(28, 55, 40, 0.1);
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      margin: .35rem;
+      border-radius: 1rem;
+      overflow: hidden;
+      scroll-snap-type: none;
+
+      .reel {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        //overflow: hidden;
+        flex-direction: column;
+        position: relative;
+        //scroll-snap-align: start;
+        //scroll-snap-stop: always;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+          //overflow: hidden;
+        }
+
+        .bottom {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          //background-color: transparent;
+          position: absolute;
+          bottom: 0;
+          background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+
+          .user {
+            width: 100%;
+            padding: 0 2rem 1rem 0.5rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 1rem;
+
+
+            img {
+              width: 45px; // Use fixed size instead of vw
+              height: 45px;
+              border-radius: 50%;
+              object-fit: cover;
+              object-position: center;
+              border: 2px solid #0095f6;
+            }
+
+            h2 {
+              font-weight: 600;
+              font-size: 1.2rem;
+            }
+
+            button {
+              padding: 0.35rem 1rem;
+              border: none;
+              border-radius: 0.5rem;
+              font-size: 1rem;
+              font-weight: 600;
+              background-color: #0095f6;
+              color: white;
+              cursor: pointer;
+              transition: all 0.2s ease;
+              margin-left: auto;
+
+              &:hover {
+                background-color: #0078d7;
+              }
+
+              &:active {
+                background-color: #005a9e;
+                transform: scale(0.95);
+              }
+              &.following {
+                background-color: #666;
+
+                &:hover {
+                  background-color: #777;
+                }
+              }
+
+            }
+          }
+
+          .title {
+            width: 100%;
+            text-align: left;
+            padding: 0 2rem 2rem 2rem;
+
+
+            h3 {
+              font-size: 1rem;
+              font-weight: 400;
+              margin-bottom: 1.5rem;
+              text-wrap: wrap;
+              color: white;
+              line-height: 1.4;
+            }
+
+          }
+        }
+      }
+    }
+
+    .stats {
+      height: 95vh; // Match allReels height
+      width: 60px;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      align-items: center;
+      gap: 1.5rem;
+      padding-bottom: 2rem;
+      padding-right: 0.5rem;
+      pointer-events: none;
+
+      .like, .comment, .share, .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.2s ease;
+
+
+        &:hover {
+          transform: scale(1.1);
+        }
+
+
+      }
+
+
+      h4 {
+        font-size: 1.8rem;
+        font-weight: 100;
+        padding-bottom: .5rem;
+        cursor: pointer !important;
+        pointer-events: auto !important;
+
+        i {
+          display: block;
+        }
+
+        .ri-heart-3-fill {
+          color: #ff3040;
+        }
+      }
+
+      h5 {
+        font-size: 0.9rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.9);
+        pointer-events: none ;
+        user-select: none ;
+      }
+
+      .comment {
+        h4 {
+          transform: rotate(270deg);
+
+        }
+      }
+
+    }
+  }
+}
+main {
+  height: 100vh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+
+  .container {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+}
+
+// Hide scrollbar for cleaner look
+main::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
